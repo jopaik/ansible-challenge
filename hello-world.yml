@@ -2,6 +2,6 @@
 - name: Hello World Ansible Island Challenge
   hosts: localhost
   tasks:
-    - name: Display the challge world 
+    - name: Display the Challenge word
       ansible.builtin.debug:
-        msg: Hello World the challge word is RedHat
+        msg: Hello World the Challenge word is RedHat
