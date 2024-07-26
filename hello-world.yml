@@ -1,0 +1,9 @@
+---
+- name: Hello World Ansible Island Challenge
+  gather_facts: false
+  hosts: localhost
+  tasks:
+
+    - name: Display the challge word 
+      debug:
+        msg: Hello World the challge word is RedHat
