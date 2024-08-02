@@ -3,5 +3,5 @@
   hosts: localhost
   tasks:
     - name: Display the debug
-      ansible.builtin.debug:
-        msg: This is an Ansible Lint Challenge
+      debug:
+          msg: This is an Ansible Lint Challenge
